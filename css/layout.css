@@ -1,0 +1,36 @@
+body{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
+	padding: 5%;
+}
+
+.site-name{
+	text-align: center;
+	margin: 1rem;
+}
+
+#quote{
+	margin: 1rem;
+}
+
+.panel{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: flex-end;
+	margin: 1rem;
+}
+
+button{
+	width: 25ch;
+	height: 5ex;
+}
