@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico');
+
+body{
+	background-image: linear-gradient(#ffd54f , #ff6f00);
+}
+
+.hidden{
+	display: none;
+}
+
+section{
+	border: 1px solid black;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+#quote{
+	line-height: 2rem;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.2rem;
+}
+
+.site-name{
+	font-size: 2.5rem;
+	font-family: 'Pacifico', cursive;
+}
+
+button {
+	font-family: 'Pacifico', cursive;
+}
+
+#tweet{
+	border: none;
+	text-decoration: none;
+	color: white;
+	background-color: #008CBA;
+}
+
+#new-quote{
+	border: none;
+	text-decoration: none;
+	color: white;
+	background-color: #4CAF50;
+}

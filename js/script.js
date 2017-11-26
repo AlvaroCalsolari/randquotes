@@ -17,6 +17,7 @@ function tweetForMe(){
 }
 
 $(function() {
+	$("body").fadeIn(4000).removeClass("hidden");
 	changeQuote('#quote');
 	$("#new-quote").click(function(){
 		changeQuote('#quote');

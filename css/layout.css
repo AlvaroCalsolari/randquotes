@@ -9,17 +9,25 @@ body{
 section {
 	display: flex;
 	flex-direction: column;
-	padding: 10%;
+	margin: 5%;
+	padding: 5%;
 }
 
 .site-name{
 	text-align: center;
+	margin: 1rem;
+}
+
+#quote{
+	margin: 1rem;
 }
 
 .panel{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-content: flex-end;
+	margin: 1rem;
 }
 
 button{
