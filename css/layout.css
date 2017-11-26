@@ -9,12 +9,20 @@ body{
 section {
 	display: flex;
 	flex-direction: column;
+	padding: 10%;
 }
 
 .site-name{
 	text-align: center;
 }
 
-#quote{
-	padding: 10%;
+.panel{
+	display: flex;
+	justify-content: space-around;
+	align-content: flex-end;
+}
+
+button{
+	width: 25ch;
+	height: 5ex;
 }
