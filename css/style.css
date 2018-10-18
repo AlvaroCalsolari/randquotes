@@ -26,6 +26,7 @@ section{
 
 button {
 	font-family: 'Pacifico', cursive;
+	cursor: pointer;
 }
 
 #tweet{

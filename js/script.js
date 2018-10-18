@@ -1,6 +1,9 @@
 function changeQuote(id){
+  let button = $("#new-quote span");
+  button.text('Loading...');
 	$.get("https://quotes.herokuapp.com/libraries/math/random", function(data) {
 		$(id).html(data);
+		button.text('Generate New Quote');
 	});
 }
 
